@@ -1,0 +1,40 @@
+.text-container {
+    max-width: 900px; /* Limitar el ancho para que el texto no sea demasiado ancho */
+    margin: 0 auto; /* Centrar el contenedor */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .user-info {
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo suave para hacer resaltar el texto */
+  }
+  
+  .user-info:hover {
+    transform: translateY(-5px); /* Efecto flotante al pasar el mouse */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Sombra ligera al hacer hover */
+  }
+  
+  .user-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff; /* Color del título en azul Bootstrap */
+    margin-bottom: 15px;
+  }
+  
+  .user-text {
+    font-size: 1.2rem;
+    color: #6c757d; /* Color de texto suave */
+    line-height: 1.6; /* Espaciado de líneas para mejor legibilidad */
+  }
+  
+  @media (max-width: 768px) {
+    .user-title {
+      font-size: 1.6rem; /* Ajustar el tamaño en pantallas pequeñas */
+    }
+  
+    .user-text {
+      font-size: 1rem; /* Texto más pequeño en móviles */
+    }
+  }

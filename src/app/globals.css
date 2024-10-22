@@ -1,0 +1,105 @@
+.custom-navbar {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-bottom: 2px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+.custom-navbar .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.custom-navbar .nav-link {
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #007bff;
+}
+
+/* Botón del menú */
+.custom-navbar .navbar-toggler {
+  border: none;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgb(0, 123, 255)' stroke-width='2' d='M5 7h20M5 15h20M5 23h20'/%3E%3C/svg%3E");
+}
+
+
+/* Estilo del footer */
+.custom-footer {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-top: 2px solid #007bff;
+  padding: 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  color: #2c3e50;
+}
+
+.custom-footer h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.custom-footer p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.custom-footer a:hover {
+  color: #0056b3;
+}
+
+.custom-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-footer ul li {
+  margin-bottom: 10px;
+}
+
+/* imagen estilo CSS */
+.imageContainer {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+
+.imageContainer:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.overlayText {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.imageContainer:hover .overlayText {
+  opacity: 1; /* Aparece el texto al hacer hover */
+}
+
+/* tarjetas de ADM */

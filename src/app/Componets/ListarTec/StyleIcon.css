@@ -1,0 +1,112 @@
+.icon-name-container {
+  color: rgb(36, 196, 15);
+  display: flex; /* Utiliza flexbox para organizar los elementos */
+  flex-direction: column; /* Coloca el ícono y el nombre en columna (uno debajo del otro) */
+  align-items: center; /* Centra ambos elementos horizontalmente */
+  transition: transform 0.3s ease; /* Transición suave para el hover */
+  margin-bottom: 10px; /* Espacio entre el ícono y el nombre */
+}
+
+.icon-name-container:hover {
+  transform: scale(1.6); /* Aplica el zoom al contenedor */
+}
+
+.custom-icon {
+  color: rgb(27, 34, 27);
+  font-size: 70px; /* Tamaño del ícono */
+  margin-bottom: 15px; /* Espacio entre el ícono y el nombre */
+}
+
+.card-title {
+  font-size: 20px; /* Tamaño del texto */
+}
+
+/* Contenedor del buscador */
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/* Estilo del campo de entrada */
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 0;
+  outline: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto al enfocar el campo de entrada */
+.search-input:focus {
+  background-color: #f0f4f8;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+/* Estilo del botón de búsqueda */
+.search-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 0;
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+.search-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Efecto al hacer clic en el botón */
+.search-button:active {
+  background-color: #004494;
+  transform: scale(1);
+}
+
+
+/* estilo tec*/
+.tech-card {
+  border: none;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  padding: 20px;
+  margin: 15px;
+}
+
+.tech-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-icon {
+  font-size: 48px;
+  color: #007bff; /* Color de icono */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
